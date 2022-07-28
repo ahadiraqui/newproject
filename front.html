@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <style>
+           *{
+            box-sizing: border-box;
+           }
+            body{
+                background-color: #182A3B;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                font-family: sans-serif;
+            }
+            .container{
+                border-radius: 11px;
+                display: flex;
+                flex-direction: column;
+                width: 80vw;
+                height: 80vh;
+
+                overflow: hidden;
+                
+            }
+            .card-details{
+             display: flex;
+             flex-direction: row;
+             justify-content: center;
+             color: white;
+             text-align: center;
+            height: 50%;
+           
+             
+
+            }
+            .community{
+                background-color:  rgb(255, 253, 253);
+                height: 50%;
+                text-align: center;
+              padding: 20px;
+              font-weight: 700;
+            }
+            .community h2{
+               color: #9AECF4;
+            }
+            .community h3{
+                color: #AAAA00;
+                font-size: 1.3rem;
+            }
+            .community p{
+                color: #B9CDE1;
+                font-size: 1.1rem;
+            }
+            .why-us{
+                background-color: rgba(85, 145, 142, 0.698);
+                width: 50%;
+            
+            }
+            .why-us-header{
+                font-size: 1.3rem;
+                font-weight: 700;
+            }
+            .why-us p{
+                margin-top: 2px;
+                margin-bottom: 2px;
+                color: #CBDDF5;
+            }
+            .card{
+                background-color:rgb(15, 67, 66);
+                width: 50%;
+                padding: 20px;
+                
+            }
+            .card-header{
+                font-size: 1.2rem;
+                font-weight: 700;
+            }
+            .card span{
+                font-weight: 700;
+                font-size: 2.2rem;
+            }
+            .card button{
+                background-color: #669900;
+                width: 50%;
+               
+                
+                color: white;
+                border: none;
+                height: 50px;
+                font-size: 1.3rem;
+                border-radius: 11px;
+                
+            }
+            .cardup{
+                display: flex;
+                align-items: flex-start;
+                justify-content: center;
+
+
+            }
+            .cardper{
+                margin-left: 5px;
+                margin-top: 5px;
+            }
+        </style>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <div id="main">
+              <div class="container">
+                <div class="community">
+                  <h2 class="community-header">Join our community</h2>
+                  <h3>30-days hassle-free monkey back gurantee</h3>
+                  <p>Gain access to our full library of tutorials along with expert code reviews. Perfect for any developers who are serious about honing their skills.</p>
+                </div>
+                <div class="card-details">
+                  <div class="card">
+                    <p class="card-header">Monthly Subscription</p>
+                   <div class="cardup"><span>$29</span><p class="cardper"> Per Month</p></div>
+                    <p>Full access for less than $1 a day.</p>
+                    <button type="button">Sign Up</button>
+
+
+                  </div>
+                  <div class="why-us">
+                    <h4 class="why-us-header">Why Us</h4>
+                    <p>Tutorials by industry experts</p>
+                    <p>Peer & expert code review</p>
+                    <p>Coding exercises</p> 
+                    <p>Access yu our Github repos</p>
+                    <p>Community forum</p>
+                    <p>Flashcard decks</p> 
+                  </div>
+                </div>
+              </div>
+          </div>
+    </body>
+</html>
