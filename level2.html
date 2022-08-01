@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Level-2 Project</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .contains{
+            background-color: hsl(0,0%,95%);
+           display: flex;
+           flex-direction: row;
+          
+           justify-content: center;
+           align-items: center;
+        }
+        .contains img{
+            height: 100px;
+            width: 100px;
+            margin-top: 3rem;
+        }
+        .about{
+            margin-top: 2.5rem;
+            margin-left: 20px;
+        }
+        .items{
+
+            background-color: hsl(0,0%,95%);
+            display: flex;
+            flex-direction: row;
+            min-height: 100vh;
+            align-items: center;
+            justify-content: center;
+           
+        }
+        .box{
+
+            background-color: hsl(184, 100%, 22%);
+            min-height: 25rem;
+            max-width: 17rem;
+            padding: 2.5rem;
+            position: relative;
+        }
+        .box h1{
+            color: hsl(0,0%,95%);
+            font-family: 'Big Shoulders Display',cursive;
+            font-size: 1.2rem;
+        }
+        .box p{
+            color: hsl(0,0%,95%);
+            font-family: 'Lexend Deca',sans-serif;
+            margin-top: 1.5rem;
+            margin-bottom: 6rem;
+           
+
+        }
+        .box button{
+            padding: 12px 18px;
+            border-radius: 30px;
+            color: hsl(184, 100%, 22%);
+            position: absolute;
+            background:hsl(0,0%,95%);
+            text-align: center;
+            border: 2px solid hsl(0,0%,95%);
+            bottom: 0;
+            margin-bottom: 2rem;
+            transition: transform .2s; 
+            cursor: pointer;
+            
+
+        }
+        .box a{
+            text-decoration: none;
+          
+            
+        }
+        .box a:hover{
+            color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            
+           
+        }
+        .box button:hover{
+            transform: scale(1.2);
+            background-color: transparent;
+        }
+        .one{
+            background-color: hsl(31,77%,52%);
+        }
+       .two{
+        background-color: hsl(184,100%,22%);
+       }
+       .three{
+        background-color: hsl(179,100%,12%);
+       }
+       .one button a{
+            color: hsl(31,77%,52%);
+        }
+       .two button a{
+       color: hsl(184,100%,22%);
+       }
+       .three button a{
+      color: hsl(179,100%,12%);
+       }
+       @media (max-width:950px){
+        .contains{
+            flex-direction: column;
+            padding: 5rem 0;
+        }
+        .items{
+            flex-direction: column;
+            padding: 5rem 0;
+        }
+
+       }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+       <div class="contains">
+        
+        <img src="https://phantomtradingfx.com/wp-content/uploads/2022/04/Logo-Light-A_Background.png" alt="my logo">
+       <div class="about">
+        <h1>Learn With Abdul Ahad</h1>
+        <h3>A Trading can change your lifestyle.</h3></div>
+       </div>
+        <div class="items">
+          
+        <div class="box one">
+            <h1>Learn Swing Trade</h1>
+            <p>Swing Trading is a method in which we buy the stock when it is low and sell it when it is high. Similarly, we sell the stock when it is high and buy it at low.</p>
+            <button><a href="https://www.elearnmarkets.com/blog/basics-of-swing-trading/">Learn More</button></a>
+        </div>
+        <div class="box two"> <h1> Learn Option and Future Trade</h1>
+        <p>Option trading have high risk and high reward, you can learn and get iside it.</p>
+         <button><a href="https://www.elearnmarkets.com/aot-v1?utm_source=google.com&utm_medium=google-ads&utm_campaign=leads-search-new-aot&gclid=Cj0KCQjwio6XBhCMARIsAC0u9aE5MaIB4AfxQ1HdY4W5-F9AV0o_ultQ9gm7TNJ7tNkly3xWmMfo9GwaAnhVEALw_wcB"> Learn more</button></div></a><div class="box three"><h1>Learn Hedging Trade</h1>
+        <p> Some basic strategies using options, however, can help a novice investor protect their downside and hedge market risk.</p> 
+        <button><a href=" https://www.investopedia.com/trading/hedging-beginners-guide/#:~:text=Hedging%20against%20investment%20risk%20means,making%20a%20trade%20in%20another.">Learn More</button></div></a>
+    </div>
+    </div>
+    
+</body>
+</html>
